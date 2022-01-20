@@ -1,0 +1,35 @@
+#modal{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.16);
+    -webkit-box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.16);
+    -moz-box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.16);
+}
+
+#modal>h1{
+    font-weight: 300;
+}
+
+input {
+    width: 80%;
+    line-height: 50px;
+    text-indent: 10px;
+    font-size: 1.2rem;
+}
+
+.danger{
+    color: #ff0000;
+    padding: 5px;
+    margin-top: 10px;
+}
+form {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

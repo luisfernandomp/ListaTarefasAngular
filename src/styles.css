@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+app-root{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9868989832261029) 22%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9868989832261029) 22%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9868989832261029) 22%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+
+ul {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.16);
+    -webkit-box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.16);
+    -moz-box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.16);
+}
+
+button{
+    cursor: pointer;
+}
+
+li {
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    font-style: italic;
+    border-bottom: 2px solid rgba(0, 0,0, 0.2);
+}
+
+span>button {
+    border : none;
+    background-color: #fff;
+    font-size: 1em;
+    opacity: 0.6;
+    padding: 8px;
+    transition: opacity 1s;
+}
+
+span>button:hover {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 5em;
+    text-shadow: 3px 5px #000;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.button {
+    background-color: #000;
+    border : none;
+    padding : 20px;
+    align-self: center;
+    color : #fff;
+    border-radius: 30px;
+    font-size: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+form>input{
+    border: 0px;
+    border-bottom: 1px solid gray;
+    width: 80%;
+}
